@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='github-backup',
+    name='github-back-up',
     version='1.0',
     description='Github Backup',
     author='Philippe Remy',
