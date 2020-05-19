@@ -11,6 +11,10 @@ from tqdm import tqdm
 
 g = Github(os.environ['GITHUB_TOKEN'])
 
+# https://github.com/git-lfs/git-lfs/issues/2406
+# skip LFS.
+os.environ['GIT_LFS_SKIP_SMUDGE'] = '1'
+
 user_repos = [r for r in g.get_user().get_repos()]
 
 print(f'Found {len(user_repos)} repositories (including org and private).')
