@@ -3,17 +3,13 @@ Back up all your github repositories.
 
 ### Installation
 
-Generate a *personal access token* to access the Github API here: https://github.com/settings/tokens.
+- Generate a *personal access token* to access the Github API here: https://github.com/settings/tokens.
 
-Tick *repo Full control of private repositories* and click on Generate.
+- Tick: *repo Full control of private repositories* and click on *Generate*.
 
-Create a environment variable called `GITHUB_TOKEN` whose value is your freshly created token.
+- Create an environment variable called `GITHUB_TOKEN` with this freshly created token: `export GITHUB_TOKEN="MY_GITHUB_TOKEN"`
 
-`export GITHUB_TOKEN="MY_GITHUB_TOKEN"`
-
-Then run this command to install `gitbackup`.
-
-`pip install github-back-up`
+- Run this command to install `gitbackup`: `pip install github-back-up`
 
 ### Usage
 ```
