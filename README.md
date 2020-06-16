@@ -1,5 +1,5 @@
 ## Github backup
-Back up all your github repositories.
+Back up all your github repositories in a directory on your disk.
 
 ### Installation
 
